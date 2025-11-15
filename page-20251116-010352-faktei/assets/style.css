@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(77, 5, 5, 0.904);
+    background-size: 100%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    top: 20px;
+    position: relative;
+}
+
+.title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgb(236, 4, 4);
+    border-radius: 100%;
+    border: 1px solid #f5f4f4;
+    top: -30%;
+    right: 60%;
+
+}
+
+.title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgb(9, 19, 198);
+    border-radius: 100%;
+    border: 1px solid #fbf8f8;
+    top: -25%;
+    right: 35%;
+}
